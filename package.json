@@ -1,0 +1,19 @@
+{
+    "name": "ts-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "build": "tsc",
+        "start-build": "node ./build/ts/index.js",
+        "build-js": "webpack",
+        "run-pack": "node ./build/dist/bundle.js",
+        "quick-build": "npm run build && npm run build-js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.14.32"
+    }
+}
